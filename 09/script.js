@@ -126,6 +126,7 @@ function exibir(msg) {
     document.getElementById("1m").classList.remove("active")
     document.getElementById("1a").classList.remove("active")
     document.getElementById("5a").classList.remove("active")
+    document.getElementById("max").classList.remove("active")
   }
 
   if (msg == "5d") {
@@ -134,6 +135,7 @@ function exibir(msg) {
     document.getElementById("1m").classList.remove("active")
     document.getElementById("1a").classList.remove("active")
     document.getElementById("5a").classList.remove("active")
+    document.getElementById("max").classList.remove("active")
   }
 
   if (msg == "1m") {
@@ -142,6 +144,7 @@ function exibir(msg) {
     document.getElementById("5d").classList.remove("active")
     document.getElementById("1a").classList.remove("active")
     document.getElementById("5a").classList.remove("active")
+    document.getElementById("max").classList.remove("active")
   }
 
   if (msg == "1a") {
@@ -150,9 +153,24 @@ function exibir(msg) {
     document.getElementById("5d").classList.remove("active")
     document.getElementById("1m").classList.remove("active")
     document.getElementById("5a").classList.remove("active")
+    document.getElementById("max").classList.remove("active")
   }
 
   if (msg == "5a") {
     chartZoom("12 Feb 2018", "12 Feb 2023")
+    document.getElementById("1d").classList.remove("active")
+    document.getElementById("5d").classList.remove("active")
+    document.getElementById("1m").classList.remove("active")
+    document.getElementById("1a").classList.remove("active")
+    document.getElementById("max").classList.remove("active")
+  }
+
+  if (msg == "max") {
+    chartZoom("12 Feb 2018", "12 Feb 2023")
+    document.getElementById("1d").classList.remove("active")
+    document.getElementById("5d").classList.remove("active")
+    document.getElementById("1m").classList.remove("active")
+    document.getElementById("1a").classList.remove("active")
+    document.getElementById("5a").classList.remove("active")
   }
 }
