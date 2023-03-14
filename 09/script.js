@@ -118,32 +118,38 @@ function chartZoom(dateInitial, dateFinal) {
   chart.zoomX(new Date(dateInitial).getTime(), new Date(dateFinal).getTime())
 }
 
-var resetCssClasses = function (activeEl) {
-  var els = document.querySelectorAll("button")
-  Array.prototype.forEach.call(els, function (el) {
-    el.classList.remove("active")
-  })
-
-  activeEl.target.classList.add("active")
-}
-
 function exibir(msg) {
   document.getElementById(msg).classList.add("active")
   if (msg == "1d") {
-    resetCssClasses(e)
     chartZoom("11 Feb 2018", "13 Feb 2018")
+    document.getElementById("5d").classList.remove("active")
+    document.getElementById("1m").classList.remove("active")
+    document.getElementById("1a").classList.remove("active")
+    document.getElementById("5a").classList.remove("active")
   }
 
   if (msg == "5d") {
     chartZoom("12 Feb 2018", "17 Feb 2018")
+    document.getElementById("1d").classList.remove("active")
+    document.getElementById("1m").classList.remove("active")
+    document.getElementById("1a").classList.remove("active")
+    document.getElementById("5a").classList.remove("active")
   }
 
   if (msg == "1m") {
     chartZoom("12 Feb 2018", "20 Feb 2018")
+    document.getElementById("1d").classList.remove("active")
+    document.getElementById("5d").classList.remove("active")
+    document.getElementById("1a").classList.remove("active")
+    document.getElementById("5a").classList.remove("active")
   }
 
   if (msg == "1a") {
     chartZoom("12 Feb 2018", "12 Feb 2019")
+    document.getElementById("1d").classList.remove("active")
+    document.getElementById("5d").classList.remove("active")
+    document.getElementById("1m").classList.remove("active")
+    document.getElementById("5a").classList.remove("active")
   }
 
   if (msg == "5a") {

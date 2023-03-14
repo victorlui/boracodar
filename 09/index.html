@@ -68,12 +68,14 @@
         <div class="wrapper">
           <div id="chart"></div>
           <div class="chart-controls">
-            <button onclick="exibir('1d')" id="1d">1D</button>
-            <button onclick="exibir('5d')" id="5d">5D</button>
-            <button onclick="exibir('1m')" id="1m">1M</button>
-            <button onclick="exibir('1a')" id="1a">1A</button>
-            <button onclick="exibir('5a')" id="5a">5A</button>
-            <button onclick="exibir('max')" id="max">Máx</button>
+            <button type="button" onclick="exibir('1d')" id="1d">1D</button>
+            <button type="button" onclick="exibir('5d')" id="5d">5D</button>
+            <button type="button" onclick="exibir('1m')" id="1m" class="active">
+              1M
+            </button>
+            <button type="button" onclick="exibir('1a')" id="1a">1A</button>
+            <button type="button" onclick="exibir('5a')" id="5a">5A</button>
+            <button type="button" onclick="exibir('max')" id="max">Máx</button>
           </div>
         </div>
       </section>
