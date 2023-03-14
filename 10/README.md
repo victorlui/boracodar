@@ -1,7 +1,7 @@
-<h1 align="center"> Calculadora </h1>
+<h1 align="center"> Página de clima </h1>
 
 <p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<a href="https://www.rocketseat.com.br/boracodar">#boraCodar</a> são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
@@ -24,13 +24,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- Git e Github
+- HTML, CSS
 - Figma
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1202607074523509182). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1212757179376046656). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
