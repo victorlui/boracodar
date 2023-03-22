@@ -105,5 +105,11 @@
             <td>16/03/23</td>
             <td align="center" ><a href="11"><img width="300px" src="11/.github/preview.png" /></a></td>
         </tr>
+        <tr>
+            <td>12</td>
+            <td><a href="11">Kanban</a></td>
+            <td>22/03/23</td>
+            <td align="center" ><a href="11"><img width="300px" src="12/.github/preview.png" /></a></td>
+        </tr>
     </tbody>
 </table></p>
