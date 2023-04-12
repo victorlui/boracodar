@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Inter";
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #e3e3ed;
+  line-height: 130%;
+}
+
+body,
+input,
+button {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f3f0ff;
+  border: 1px dashed #c1b2fa;
+  border-radius: 8px;
+  width: 440px;
+  height: 160px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+label > p {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 130%;
+  color: #7a5fec;
+}
+
+label > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #746e82;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 72px;
+}
+
+.file-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 12px;
+  width: 440px;
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px #eae2fd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.progress {
+  background: #e9e3f8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 56px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content > p {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 130%;
+  color: #575361;
+}
+
+.content > span {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #857e95;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.progress-container > p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #9892a6;
+}
+
+.progress-bar {
+  display: flex;
+  height: 10px;
+  background-color: #ccc;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.progress-bar-porcent {
+  width: 1%;
+  height: 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(58, 97, 237, 0.52) 0%, #7c3aed 100%);
+}
