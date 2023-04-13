@@ -125,7 +125,7 @@
         </tr>
         <tr>
             <td>15</td>
-            <td><a href="14">Pricing Table</a></td>
+            <td><a href="15">Pricing Table</a></td>
             <td>13/04/23</td>
             <td align="center" ><a href="15"><img width="300px" src="15/.github/preview.png" /></a></td>
         </tr>
